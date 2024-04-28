@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0, 0.954);
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-family: "Jersey 25", sans-serif;
+    font-style: normal;
+    color: rgb(247, 123, 144);
+    font-size: 60px;
+}
+a{
+    font-family: "Lilita One", sans-serif;
+    font-style: normal;
+    color: rgb(96, 96, 97);
+    font-size: 18px;
+}
+.button-div{
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button{
+    height: 60px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(243, 241, 244);
+}
+footer{
+    position: absolute;
+    top: 95%;
+    left: 0%;
+    color: rgb(245, 214, 245)
+}
