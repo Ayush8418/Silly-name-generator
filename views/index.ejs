@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Name Generator</title>
+    <title>gaming Name Generator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+15+Charted&family=Jersey+25&family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nova+Cut&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Ramaraja&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <div class="heading">
-        <% if(locals.Name){ %>
-            <h1><%= Name %></h1>
-        <% }else{ %>
-            <h1>Click button to generate name!</h1>
-        <% } %>
+    <div class="hero">
+        <h1 class="heading">
+            <% if(locals.Name){ %>
+                <%= Name %>
+            <% }else{ %>
+                Click button to generate name!
+            <% } %>
+        </h1>
+            <button class="button"> <a href="/click" class="link">Generate name</a> </button>
     </div>
-
-    <div class="button-div">
-        <button class="button"> <a href="/click" class="link">Generate</a> </button>
-    </div>
-<%- include("footer.ejs") %>
+    <footer>copyright <%= date %> | ayushkumar8418@gmail.com</footer>
+</body>
 
