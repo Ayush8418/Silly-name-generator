@@ -1,39 +1,34 @@
 body{
-    background-color: rgba(0, 0, 0, 0.954);
+    background-color: black;
+}
+.hero{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 .heading{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: rgb(255, 56, 56);
+    font-size: 80px;
+    font-family: "Nova cut";
 }
-h1{
-    font-family: "Jersey 25", sans-serif;
-    font-style: normal;
-    color: rgb(247, 123, 144);
-    font-size: 60px;
+button{
+    border-radius: 5px;
+    height: 47px;
+    width: 200px;
+    font-family: "Ramaraja";
+    color: gray;
+    font-size: 23px;
+    font-weight: 400;
 }
 a{
-    font-family: "Lilita One", sans-serif;
-    font-style: normal;
-    color: rgb(96, 96, 97);
-    font-size: 18px;
-}
-.button-div{
-    position: absolute;
-    top: 63%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.button{
-    height: 60px;
-    width: 200px;
-    border-radius: 20px;
-    background-color: rgb(243, 241, 244);
+    color: rgb(56, 56, 56);
 }
 footer{
     position: absolute;
-    top: 95%;
-    left: 0%;
-    color: rgb(245, 214, 245)
+    bottom: 4px;
+    font-family: "Public sans";
+    font-weight: 300;
 }
